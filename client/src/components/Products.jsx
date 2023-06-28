@@ -1,4 +1,6 @@
 import styled from "styled-components";
+// might remove when using database
+// tab tak ki liye pada rehne do
 import { popularProducts } from "../data";
 import Product from "./Product";
 import { useState, useEffect } from "react";

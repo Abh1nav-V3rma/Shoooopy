@@ -45,6 +45,7 @@ const Button = styled.button`
 const CategoryItem = ({ item }) => {
   return (
     <Container>
+      {/* anchor tag is used as Link was causing trouble */}
       <a href={`/products/${item.cat}`}>
         <Image src={item.img} />
         <Info>
